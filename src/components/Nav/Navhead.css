@@ -1,0 +1,122 @@
+/* Navbar.css */
+
+.app__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red; /* Adjust background color */
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px; /* Adjust height as needed */
+  }
+  
+  .app__navbar-logo img {
+    width: 100px; /* Adjust logo size */
+  }
+  
+  .app__navbar-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .app__navbar-links li {
+    margin: 0 1.5rem; /* Adjust margin */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
+    color: #fff; /* Adjust color */
+  }
+  
+  .app__navbar-links li:hover {
+    background-color: #fff; /* Adjust hover background color */
+    color: red; /* Adjust hover color */
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  
+  .app__navbar-smallscreen {
+    display: none;
+  }
+  
+  .app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .app__navbar-smallscreen_overlay.active {
+    transform: translateY(0);
+  }
+  
+  .overlay__close {
+    font-size: 27px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .app__navbar-smallscreen_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .app__navbar-smallscreen_links li {
+    margin: 2rem 0;
+  }
+  
+  .app__navbar-smallscreen_links li a {
+    color: #fff;
+    font-size: 1.5rem; /* Adjust font size */
+    text-decoration: none;
+  }
+  
+  .app__navbar-smallscreen_links li a:hover {
+    color: red; /* Adjust hover color */
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 1150px) {
+    .app__navbar-links {
+      display: none; /* Hide regular navigation links on medium screens */
+    }
+  
+    .app__navbar-smallscreen {
+      display: flex; /* Show hamburger menu icon on medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .app__navbar {
+      padding: 0.5rem; /* Further reduce padding on smaller screens */
+    }
+  
+    .app__navbar-logo img {
+      width: 80px; /* Adjust logo size for smaller screens */
+    }
+  
+    .app__navbar-links li {
+      margin: 0 1rem; /* Adjust margin for smaller screens */
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+  
