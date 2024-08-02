@@ -75,3 +75,40 @@
         line-height: 70px;
     }
 }
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .app__header {
+      flex-direction: column;
+      align-items: center;
+      padding: .5rem;
+      margin: 0;
+    }
+  
+    .app__wrapper_info {
+      text-align: center;
+      margin: 0;
+    }
+  
+    .custom__button {
+      width: 100%;
+    }
+  
+    .vegetable {
+       width: 150px;
+       position: absolute; /* Ensure positioning context */
+       right: 20px; /* Adjust according to your layout */
+       margin-left: 40px;
+       margin-top: auto;
+    }
+  
+    .app__wrapper_img img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .app__header-h1 {
+    font-size: 45px;
+    line-height: 70px;
+    padding: 10px;
+}

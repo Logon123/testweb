@@ -149,3 +149,23 @@
     .app__navbar-links {
       display: none; /* Hide the regular navigation links on small screens */
     } }
+
+    /* Hide the small screen menu by default */
+.overlay__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Media query for responsive styles */
+  @media (max-width: 768px) {
+    .app__navbar-links {
+      display: none;
+    }
+  
+    .app__navbar-smallscreen {
+      display: flex;
+    }
+  }

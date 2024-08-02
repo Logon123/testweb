@@ -22,22 +22,6 @@ Each update will include new features, improvements, and fixes based on the proj
 
 The website design is based on a Figma prototype, which provides a visual guideline for the layout, color scheme, typography, and overall aesthetics.
 
-## Tech Stack
-
-The following technologies are used in this project:
-
-| Technology | Description |
-|------------|-------------|
-| ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  | A JavaScript library for building user interfaces. |
-| ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | The standard markup language for creating web pages. |
-| ![BulmaCSS](https://img.shields.io/badge/Bulma-%2300D1B2.svg?style=for-the-badge&logo=bulma&logoColor=white) | A modern CSS framework based on Flexbox. |
-| ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) | A programming language that allows you to implement complex features on web pages. |
-
-## Live Demo 
-
-Check Out The LiveDemo Of The Project 
-
-[![Live Demo](https://img.shields.io/badge/LiveDemo%20-%23276DC3.svg?&style=for-the-badge&logo=&logoColor=white)](https://react-restaurent-website.netlify.app/)
 
 ## Contributing
 
