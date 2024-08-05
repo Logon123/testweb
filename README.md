@@ -1,4 +1,4 @@
-# React Restaurant Website
+# React Restaurant Website 
 
 Welcome to the React Restaurant Website project! 
 
